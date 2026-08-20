@@ -9,6 +9,6 @@ public class BankAccount {
         BankAccount YourAccount = MyAccount;
 
         System.out.println(MyAccount.id);
-        System.out.println(YourAccount); //ссылка
+        System.out.println(YourAccount); // ссылка
     }
 }
