@@ -1,7 +1,7 @@
 package Lesson4;
 
 public class BankAccount {
-    int id=1;
+    int id =1;
 
     public static void main(String[] args) {
 
