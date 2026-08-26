@@ -1,5 +1,7 @@
 package practiceLambda;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.function.Predicate;
 
 /**
@@ -13,7 +15,12 @@ import java.util.function.Predicate;
  */
 public class LessonOne {
 
-    String test = "test";
+    public static void main(String[] args) {
+        Predicate<String> value = s -> s.length() > 5;
+        System.out.println(value.test("variable"));
 
 
+
+
+    }
 }
