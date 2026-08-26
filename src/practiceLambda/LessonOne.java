@@ -3,6 +3,7 @@ package practiceLambda;
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 /**
@@ -26,6 +27,9 @@ public class LessonOne {
         Consumer<String> combined = toUpperCase.andThen(print);
 
         combined.accept("hello");
+
+        Function<String, Integer> example = s -> s.length();
+        System.out.println(example.apply("test"));
 
 
 
