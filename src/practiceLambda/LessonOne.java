@@ -1,5 +1,7 @@
 package practiceLambda;
 
+import java.util.function.Predicate;
+
 /**
  * лямбда-выражение — это анонимный блок кода с параметрами,
  * который можно передать как аргумент к методу или сохранить в переменной.
@@ -10,5 +12,8 @@ package practiceLambda;
  * (параметры) -> действия
  */
 public class LessonOne {
+
+    String test = "test";
+
 
 }
