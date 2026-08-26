@@ -2,9 +2,11 @@ package practiceLambda;
 
 import org.w3c.dom.ls.LSOutput;
 
+import java.time.LocalDateTime;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 /**
  * лямбда-выражение — это анонимный блок кода с параметрами,
@@ -31,7 +33,9 @@ public class LessonOne {
         Function<String, Integer> example = s -> s.length();
         System.out.println(example.apply("test"));
 
+        Supplier<String> time = () -> LocalDateTime.now().toString();
 
+        System.out.println(time.get());
 
     }
 }
