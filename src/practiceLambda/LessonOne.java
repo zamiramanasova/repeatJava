@@ -3,10 +3,8 @@ package practiceLambda;
 import org.w3c.dom.ls.LSOutput;
 
 import java.time.LocalDateTime;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+import java.util.function.*;
+import java.util.stream.Stream;
 
 /**
  * лямбда-выражение — это анонимный блок кода с параметрами,
@@ -36,6 +34,9 @@ public class LessonOne {
         Supplier<String> time = () -> LocalDateTime.now().toString();
 
         System.out.println(time.get());
+
+        UnaryOperator<String> a1 = s -> s.toLowerCase();
+        System.out.println(a1.apply("RARE"));
 
     }
 }
