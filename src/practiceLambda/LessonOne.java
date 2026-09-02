@@ -36,6 +36,7 @@ public class LessonOne {
         System.out.println(time.get());
 
         UnaryOperator<String> a1 = s -> s.toLowerCase();
+
         System.out.println(a1.apply("RARE"));
 
     }
