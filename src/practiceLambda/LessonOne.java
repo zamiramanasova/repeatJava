@@ -3,7 +3,6 @@ package practiceLambda;
 import java.time.LocalDateTime;
 import java.util.function.*;
 
-
 /**
  * лямбда-выражение — это анонимный блок кода с параметрами,
  * который можно передать как аргумент к методу или сохранить в переменной.
