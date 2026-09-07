@@ -20,6 +20,5 @@ public class LessonArrayList {
         for (StringBuilder sb: list) {
             System.out.print(sb + " ");
         }
-
     }
 }
