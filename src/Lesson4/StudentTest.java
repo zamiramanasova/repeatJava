@@ -13,6 +13,5 @@ public class StudentTest {
         student1.count();
         student2.count();
         student3.count();
-
     }
 }
