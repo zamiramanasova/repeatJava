@@ -23,7 +23,6 @@ class HumanTest {
         BankAccount bankAccount = new BankAccount(1, 200.0);
         System.out.println(bankAccount.popolnenieScheta(150.0));
         System.out.println(bankAccount.snytieSoScheta(50.0));
-
     }
 }
 
