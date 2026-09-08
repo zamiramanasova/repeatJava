@@ -7,7 +7,7 @@ public class EmployeeTest {
             Employee emp2 = new Employee("Petrov");
             System.out.println(emp2.surname + emp2.age);
 //          Employee emp3 = new Employee(340000.00);
-//            System.out.println(emp3.salary);
+//           System.out.println(emp3.salary);
             emp.method1();
             emp.method2();
             emp.method3();
