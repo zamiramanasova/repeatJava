@@ -12,7 +12,7 @@ public class Employee {
         emp.method2();
         emp.method3();
 
-//       emp2.method1();
+//      emp2.method1();
 //        emp2.method2();
 //        emp2.method3();
 //
