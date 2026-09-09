@@ -13,7 +13,7 @@ public class Employee {
         emp.method3();
 
 //      emp2.method1();
-//       emp2.method2();
+//      emp2.method2();
 //        emp2.method3();
 //
 //        emp3.method1();
