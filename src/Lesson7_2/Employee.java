@@ -6,7 +6,7 @@ public class Employee {
 //      System.out.println(emp.id);
 //      Lesson7.homework.Employee emp2 = new Lesson7.homework.Employee("Petrov");
 //      System.out.println(emp2.surname);
-//       Lesson7.homework.Employee emp3 = new Lesson7.homework.Employee(340000.00);
+//      Lesson7.homework.Employee emp3 = new Lesson7.homework.Employee(340000.00);
 //        System.out.println(emp3.salary);
         emp.method1();
         emp.method2();
