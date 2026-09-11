@@ -6,7 +6,7 @@ public class Lesson3 {
 //       int y = 3;
 //       int z = x - y++;
 //       System.out.println(z);
-//        System.out.println(y);
+//       System.out.println(y);
 //
 //        int a = 5;
 //        int b = 3;
