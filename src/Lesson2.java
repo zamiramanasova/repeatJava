@@ -32,6 +32,5 @@ public class Lesson2 {
 
         System.out.println(c5);
 
-
     }
 }
