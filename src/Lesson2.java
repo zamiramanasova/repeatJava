@@ -31,6 +31,5 @@ public class Lesson2 {
         int a2 = 0b111100;
 
         System.out.println(c5);
-
     }
 }
