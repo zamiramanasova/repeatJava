@@ -12,7 +12,7 @@ public class Lesson3 {
 //      int b = 3;
 //      int c = a - ++b;
 //      System.out.println(z);
-//       System.out.println(b);
+//      System.out.println(b);
 
         double d = 1.3;
         int i = 5;
