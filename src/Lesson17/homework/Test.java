@@ -25,7 +25,7 @@ public class Test {
         System.out.println(Test.ravenstvo(s2, s3));// false
         System.out.println(Test.ravenstvo(new StringBuilder(""), new StringBuilder(""))); // true но мы к ним потом обратиться не сможем
         // потому что нет переменной которая ссылается на эти объекты.
-        System.out.println(Test.ravenstvo(new StringBuilder(), new StringBuilder()));// true но мы к ним потом так же обратиться не сможем
+        System.out.println(Test.ravenstvo(new StringBuilder(), new StringBuilder())); // true но мы к ним потом так же обратиться не сможем
         // потому что нет переменной которая ссылается на эти объекты.
     }
 }
