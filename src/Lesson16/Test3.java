@@ -14,6 +14,6 @@ public class Test3 {
 
         String s10 = "Kak dela?";
         String s11 = "kak dela?";
-        System.out.println(s10.equalsIgnoreCase(s11));// true
+        System.out.println(s10.equalsIgnoreCase(s11)); // true
     }
 }
