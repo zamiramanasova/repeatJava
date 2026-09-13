@@ -21,7 +21,7 @@ public class Test {
         StringBuilder s2 = new StringBuilder("hello");
         StringBuilder s3 = new StringBuilder("Hello");
         boolean a = Test.ravenstvo(s1,s2); // приравнивание к boolean
-        System.out.println(a);// true значения равны
+        System.out.println(a); // true значения равны
         System.out.println(Test.ravenstvo(s2, s3));// false
         System.out.println(Test.ravenstvo(new StringBuilder(""), new StringBuilder("")));// true но мы к ним потом обратиться не сможем
         // потому что нет переменной которая ссылается на эти объекты.
