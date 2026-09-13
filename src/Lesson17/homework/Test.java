@@ -23,7 +23,7 @@ public class Test {
         boolean a = Test.ravenstvo(s1,s2); // приравнивание к boolean
         System.out.println(a); // true значения равны
         System.out.println(Test.ravenstvo(s2, s3));// false
-        System.out.println(Test.ravenstvo(new StringBuilder(""), new StringBuilder("")));// true но мы к ним потом обратиться не сможем
+        System.out.println(Test.ravenstvo(new StringBuilder(""), new StringBuilder(""))); // true но мы к ним потом обратиться не сможем
         // потому что нет переменной которая ссылается на эти объекты.
         System.out.println(Test.ravenstvo(new StringBuilder(), new StringBuilder()));// true но мы к ним потом так же обратиться не сможем
         // потому что нет переменной которая ссылается на эти объекты.
