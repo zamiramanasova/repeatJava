@@ -9,7 +9,7 @@ public class Test3 {
         String s3 = "privet";
         String s4 = "privet";
         System.out.println(s3 == s4); // true
-        System.out.println(s3.equals(s4)); //true
+        System.out.println(s3.equals(s4)); // true
         System.out.println(s1 != s4); // false
 
         String s10 = "Kak dela?";
