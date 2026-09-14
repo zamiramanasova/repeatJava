@@ -7,7 +7,7 @@ public class StringMethods {
         int a = s1.length();
         System.out.println(a);
 
-        char c1 = s1.charAt(3);// выводит символ под индексом 3
+        char c1 = s1.charAt(3); // выводит символ под индексом 3
         System.out.println(c1);
 
 
