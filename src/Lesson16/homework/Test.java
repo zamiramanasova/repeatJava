@@ -11,7 +11,6 @@ public class Test {
             c = email.indexOf(';', c + 1);
             System.out.println(email.substring(a + 1, b));
         }
-
     }
 
     public static void main(String[] args) {
