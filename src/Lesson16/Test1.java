@@ -9,6 +9,5 @@ public class Test1 {
         System.out.println("poka" == "privet");
         String a1 = new String("Privet");
 
-
     }
 }
