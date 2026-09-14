@@ -11,7 +11,7 @@ public class Test {
 
         OUTER:
         while (hour < 6) {
-            int minuta = -1;// когда он перейдет в do while станет 0.
+            int minuta = -1; // когда он перейдет в do while станет 0.
 
             MIDDLE:
             do {
