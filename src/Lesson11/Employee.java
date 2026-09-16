@@ -26,6 +26,5 @@ class EmployeeTest {
         System.out.println(empl.salary);
         empl.zP2();
         System.out.println(empl.salary);
-
     }
 }
