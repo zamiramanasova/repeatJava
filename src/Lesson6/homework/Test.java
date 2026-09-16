@@ -3,7 +3,7 @@ package Lesson6.homework;
 public class Test {
 
     void sum() {
-        System.out.println("Nothing");
+        System.out.println("Nothing :");
     }
     int sum(int a) {
         return a;
