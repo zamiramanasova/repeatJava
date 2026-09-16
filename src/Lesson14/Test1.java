@@ -17,7 +17,7 @@ public class Test1 {
             System.out.println(i);
             i++;
         }
-        //бесконечный цикл
+        // бесконечный цикл
         for (int i = 1; i < 11; ) {
             System.out.println(i);
         }
