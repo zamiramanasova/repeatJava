@@ -7,6 +7,5 @@ public class A {
         Student st2 = new Student();
         System.out.println(st2.z);
         System.out.println(Student.c);
-
     }
 }
