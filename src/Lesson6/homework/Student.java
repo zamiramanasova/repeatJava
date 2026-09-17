@@ -32,7 +32,7 @@ class StudentMain{
     public static void main(String[] args) {
         Student s1 = new Student();
         System.out.println(s1);
-        Student s2 = new Student(1, "Zaur ","Zaurovich ", "IT");
+        Student s2 = new Student(1, "Zaur ","Zaurovich ", "IT ");
         System.out.println(s2.id + " " + s2.name + " " + s2.surname + " " + s2.course);
         Student s3 = new Student(2, "Bomba ", "Bombovich ", "IT",1998,5.0,5.0,4.0);
         System.out.println(s3.id + " " + s3.name + " " + s3.surname + " " + s3.course + " " + s3.year + " " + s3.numberMath + " " +
