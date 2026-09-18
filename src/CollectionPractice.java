@@ -18,6 +18,16 @@ public class CollectionPractice {
         userList.add(new User(10, "al"));
         userList.add(new User(11, "az"));
 
+        userList.indexOf(1);
+        userList.set(1 , new User(2, "bbb"));
+//        System.out.print(userList);
+        userList.remove(1);
+
+        System.out.println(userList.contains(new User(6,"g")));
+
+        for (var users : userList) {
+            System.out.println(users);
+        }
 
     }
 }
