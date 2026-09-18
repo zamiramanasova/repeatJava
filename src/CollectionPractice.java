@@ -18,6 +18,9 @@ list.sort(Comparator.naturalOrder());
  **/
 public class CollectionPractice {
     public static void main(String[] args) {
+
+        User user = new User(10, "blabla");
+
         List<User> userList = new ArrayList<>();
         userList.add(new User(1, "a"));
         userList.add(new User(2, "b"));
@@ -30,10 +33,17 @@ public class CollectionPractice {
         userList.add(new User(9, "ak"));
         userList.add(new User(10, "al"));
         userList.add(new User(11, "az"));
+        userList.add(user);
 
-        userList.indexOf(1);
+        System.out.println(userList.indexOf(user));
         userList.set(1 , new User(2, "bbb"));
+        for (var users : userList) {
+            System.out.println(users);
+        }
         userList.remove(1);
+        for (var users : userList) {
+            System.out.println(users);
+        }
         System.out.println(userList.contains(new User(6,"g")));
         for (var users : userList) {
             System.out.println(users);
