@@ -65,6 +65,5 @@ public class CollectionPractice {
         }
         System.out.println("false");
 
-
     }
 }
