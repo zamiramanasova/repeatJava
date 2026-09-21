@@ -1,4 +1,4 @@
-import practiceLambda.User;
+import oldpackage.practiceLambda.User;
 
 import java.util.ArrayList;
 import java.util.List;
