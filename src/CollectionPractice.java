@@ -64,5 +64,6 @@ public class CollectionPractice {
             System.out.println("true");
         }
         System.out.println("false");
+
     }
 }
