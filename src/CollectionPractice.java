@@ -51,7 +51,7 @@ public class CollectionPractice {
         System.out.println("=================");
         userList.get(3);
         System.out.println(userList);
-        System.out.println("================");
+        System.out.println("=================");
         userList.remove(0);
         for (var users : userList) {
             System.out.println(users);
