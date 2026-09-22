@@ -59,7 +59,7 @@ public class CollectionPractice {
         System.out.println("=================");
         System.out.println(userList.size());
 
-        System.out.println("=================");
+        System.out.println("==================");
         if (userList.isEmpty()) {
             System.out.println("true");
         }
